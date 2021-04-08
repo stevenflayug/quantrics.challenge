@@ -17,6 +17,9 @@
 		F049C819261E062200FD58B1 /* BusinessRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F049C818261E062200FD58B1 /* BusinessRouter.swift */; };
 		F049C86D261E0D7800FD58B1 /* BusinessRequestOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F049C86C261E0D7800FD58B1 /* BusinessRequestOptions.swift */; };
 		F049C871261E0E1000FD58B1 /* RequestParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F049C870261E0E1000FD58B1 /* RequestParameter.swift */; };
+		F0E11443261EDE4E00DD369C /* BusinessListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E11441261EDE4E00DD369C /* BusinessListCell.swift */; };
+		F0E11444261EDE4E00DD369C /* BusinessListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E11442261EDE4E00DD369C /* BusinessListCell.xib */; };
+		F0E11448261EDE5E00DD369C /* BusinessListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E11447261EDE5E00DD369C /* BusinessListCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		F049C818261E062200FD58B1 /* BusinessRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRouter.swift; sourceTree = "<group>"; };
 		F049C86C261E0D7800FD58B1 /* BusinessRequestOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRequestOptions.swift; sourceTree = "<group>"; };
 		F049C870261E0E1000FD58B1 /* RequestParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestParameter.swift; sourceTree = "<group>"; };
+		F0E11441261EDE4E00DD369C /* BusinessListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessListCell.swift; sourceTree = "<group>"; };
+		F0E11442261EDE4E00DD369C /* BusinessListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessListCell.xib; sourceTree = "<group>"; };
+		F0E11447261EDE5E00DD369C /* BusinessListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessListCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,7 @@
 		F049C80F261E056B00FD58B1 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				F0E11440261EDE2600DD369C /* Business List */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -130,6 +137,16 @@
 				F049C870261E0E1000FD58B1 /* RequestParameter.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		F0E11440261EDE2600DD369C /* Business List */ = {
+			isa = PBXGroup;
+			children = (
+				F0E11441261EDE4E00DD369C /* BusinessListCell.swift */,
+				F0E11447261EDE5E00DD369C /* BusinessListCellViewModel.swift */,
+				F0E11442261EDE4E00DD369C /* BusinessListCell.xib */,
+			);
+			path = "Business List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E11444261EDE4E00DD369C /* BusinessListCell.xib in Resources */,
 				F049C805261E04DE00FD58B1 /* Preview Assets.xcassets in Resources */,
 				F049C802261E04DE00FD58B1 /* Assets.xcassets in Resources */,
 			);
@@ -246,8 +264,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F049C812261E05F200FD58B1 /* Business.swift in Sources */,
+				F0E11443261EDE4E00DD369C /* BusinessListCell.swift in Sources */,
 				F049C816261E060600FD58B1 /* BusinessRequest.swift in Sources */,
 				F049C86D261E0D7800FD58B1 /* BusinessRequestOptions.swift in Sources */,
+				F0E11448261EDE5E00DD369C /* BusinessListCellViewModel.swift in Sources */,
 				F049C800261E04DD00FD58B1 /* ContentView.swift in Sources */,
 				F049C7FE261E04DD00FD58B1 /* Yelp_LocatorApp.swift in Sources */,
 				F049C871261E0E1000FD58B1 /* RequestParameter.swift in Sources */,
